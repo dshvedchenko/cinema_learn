@@ -1,0 +1,4 @@
+DELETE FROM user;
+
+ALTER TABLE user
+  MODIFY role INT(11) NOT NULL;

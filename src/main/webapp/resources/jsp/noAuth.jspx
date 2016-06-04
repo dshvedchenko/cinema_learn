@@ -1,0 +1,26 @@
+<!--
+  Created by IntelliJ IDEA.
+  User: dshvedchenko
+  Date: 15.04.16
+  Time: 0:40
+  To change this template use File | Settings | File Templates.
+-->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+    <html
+            xmlns:c="http://java.sun.com/jsp/jstl/core">
+    <head>
+        <title>Title</title></head>
+    <jsp:include page="/resources/jsp/stylesheets.jsp"
+    %>
+    <body>
+    <jsp:include page="/resources/jsp/actionlist.jsp"/>
+
+    You set incorrect AUTH data, try again.
+    <a href="<c:url value='/'/>">AUTH</a> or register if you not <a
+            href="<c:url value='/registration'>">registration</a>
+    </body>
+    </html>
+</jsp:root>
+
+
+

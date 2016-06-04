@@ -1,0 +1,9 @@
+DONE
+1. add movie
+2. edit movie
+3. user list movie
+4. user list sessions
+5. user list tickets
+6. admin list sessions
+7. admin add sessions
+

@@ -1,0 +1,102 @@
+.center_div {
+    position: absolute;
+
+    width: 400px;
+
+    /* Center form on page horizontally & vertically */
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-color: black;
+    border-width: 2px;
+
+}
+
+.login_form {
+    width: 400px;
+
+    background: lightblue;
+    border-radius: 3px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.register_form {
+    width: 400px;
+
+    background: lightblue;
+    border-radius: 3px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.movie_list tr th {
+    background-color: lightblue;
+}
+
+.movie_list {
+    border: dotted;
+}
+
+.movie_add tr th {
+    background-color: lightblue;
+}
+
+.movie_add {
+    width: 400px;
+    border: dotted;
+}
+
+.movie_update tr th {
+    background-color: lightblue;
+}
+
+.movie_update {
+    width: 400px;
+    border: double;
+}
+
+/* Users */
+.user_list tr th {
+    background-color: lightblue;
+}
+
+.user_list {
+    border: dotted;
+}
+
+.user_add tr td {
+    background-color: lightblue;
+}
+
+.user_add {
+    width: 400px;
+    border: dotted;
+}
+
+.user_update tr td {
+    background-color: lightblue;
+}
+
+.user_update {
+    width: 400px;
+    border: double;
+}
+
+.session_list tr th {
+    background-color: lightblue;
+}
+
+.session_list {
+    border: dotted;
+    background-color: #d8fae0;
+}
+
+.session_hall_places tr td {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}

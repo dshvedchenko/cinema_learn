@@ -1,0 +1,5 @@
+db.mysql=true
+db.username=root
+db.password=1qaz2wsx
+db.url=jdbc:mysql://localhost:3306/cinema_db?useEncoding=true&characterEncoding=UTF-8
+db.driverclassname=com.mysql.jdbc.Driver
